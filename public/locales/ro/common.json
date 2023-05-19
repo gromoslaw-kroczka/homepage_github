@@ -405,7 +405,7 @@
     },
     "common": {
         "bibyterate": "{{valoare, rata(bits: fals; binar: adevarat)}}",
-        "bibitrate": "{{value, rate(bits: true; binary: true)}}"
+        "bibitrate": "{{valoare, rata(biti: adevarat; binar: adevarat)}}"
     },
     "omada": {
         "connectedAp": "Connected APs",
@@ -584,7 +584,7 @@
     },
     "whatsupdocker": {
         "monitoring": "Monitoring",
-        "updates": "Updates"
+        "updates": "Acutalizari"
     },
     "tailscale": {
         "address": "Address",
@@ -620,5 +620,13 @@
         "upstreams": "Upstreams",
         "requests": "Current requests",
         "requests_failed": "Failed requests"
+    },
+    "evcc": {
+        "pv_power": "Production",
+        "battery_soc": "Battery",
+        "grid_power": "Grid",
+        "home_power": "Consumption",
+        "charge_power": "Charger",
+        "watt_hour": "Wh"
     }
 }

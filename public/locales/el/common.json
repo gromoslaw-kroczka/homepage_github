@@ -620,5 +620,13 @@
         "upstreams": "Upstreams",
         "requests": "Current requests",
         "requests_failed": "Failed requests"
+    },
+    "evcc": {
+        "watt_hour": "Wh",
+        "pv_power": "Παραγωγή",
+        "battery_soc": "Μπαταρία",
+        "grid_power": "Πλέγμα",
+        "home_power": "Κατανάλωση",
+        "charge_power": "Charger"
     }
 }
