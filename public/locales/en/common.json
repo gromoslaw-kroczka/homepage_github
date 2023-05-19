@@ -637,5 +637,9 @@
     "whatsupdocker": {
         "monitoring": "Monitoring",
         "updates": "Updates"
+    },
+    "github": {
+        "open_issues_count": "Open Issues",
+        "stargazers_count": "Stars"
     }
 }
