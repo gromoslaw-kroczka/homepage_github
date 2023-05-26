@@ -15,13 +15,17 @@
         "transferRate": "レート"
     },
     "glances": {
-        "mem": "MEM",
         "cpu": "CPU",
         "wait": "お待ちください",
         "temp": "温度",
         "uptime": "UP",
         "days": "日",
-        "hours": "時間"
+        "hours": "時間",
+        "load": "Load",
+        "warn": "Warn",
+        "total": "Total",
+        "free": "Free",
+        "used": "Used"
     },
     "autobrr": {
         "filters": "フィルター",
@@ -604,7 +608,9 @@
         "cpuUsage": "CPU Usage",
         "memUsage": "MEM Usage",
         "systemTempC": "System Temp",
-        "poolUsage": "Pool Usage"
+        "poolUsage": "Pool Usage",
+        "volumeUsage": "Volume Usage",
+        "invalid": "Invalid"
     },
     "pfsense": {
         "up": "Up",
@@ -628,5 +634,11 @@
         "grid_power": "Grid",
         "home_power": "Consumption",
         "charge_power": "Charger"
+    },
+    "pialert": {
+        "total": "Total",
+        "connected": "Connected",
+        "new_devices": "New Devices",
+        "down_alerts": "Down Alerts"
     }
 }

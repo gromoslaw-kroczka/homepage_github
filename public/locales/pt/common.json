@@ -247,12 +247,16 @@
     },
     "glances": {
         "cpu": "CPU",
-        "mem": "MEM",
         "wait": "Por favor, aguarde",
         "temp": "TEMP",
         "uptime": "Cima",
         "days": "d",
-        "hours": "h"
+        "hours": "h",
+        "load": "Load",
+        "warn": "Warn",
+        "total": "Total",
+        "free": "Free",
+        "used": "Used"
     },
     "changedetectionio": {
         "totalObserved": "Total Observado",
@@ -613,7 +617,9 @@
         "cpuUsage": "CPU Usage",
         "memUsage": "MEM Usage",
         "systemTempC": "System Temp",
-        "poolUsage": "Pool Usage"
+        "poolUsage": "Pool Usage",
+        "volumeUsage": "Volume Usage",
+        "invalid": "Invalid"
     },
     "pfsense": {
         "load": "Load Avg",
@@ -637,5 +643,11 @@
         "home_power": "Consumption",
         "charge_power": "Charger",
         "watt_hour": "Wh"
+    },
+    "pialert": {
+        "total": "Total",
+        "connected": "Connected",
+        "new_devices": "New Devices",
+        "down_alerts": "Down Alerts"
     }
 }

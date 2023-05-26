@@ -234,12 +234,16 @@
     },
     "glances": {
         "cpu": "Cpu",
-        "mem": "Mém",
         "wait": "Merci de patienter",
         "temp": "Temp",
         "uptime": "Up",
         "days": "j",
-        "hours": "h"
+        "hours": "h",
+        "load": "Charge",
+        "warn": "Alerte",
+        "total": "Total",
+        "free": "Libre",
+        "used": "Utilisé"
     },
     "changedetectionio": {
         "totalObserved": "Total Observé",
@@ -604,7 +608,9 @@
         "cpuUsage": "Cpu",
         "memUsage": "Mém",
         "systemTempC": "Temp",
-        "poolUsage": "Pool"
+        "poolUsage": "Pool",
+        "volumeUsage": "Volume",
+        "invalid": "Invalide"
     },
     "pfsense": {
         "load": "Charge moy.",
@@ -628,5 +634,11 @@
         "home_power": "Consommation",
         "charge_power": "Chargeur",
         "watt_hour": "Wh"
+    },
+    "pialert": {
+        "total": "Total",
+        "connected": "Connecté",
+        "new_devices": "Nouvel Appareil",
+        "down_alerts": "Alertes"
     }
 }

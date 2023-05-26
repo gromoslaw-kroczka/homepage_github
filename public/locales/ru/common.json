@@ -234,12 +234,16 @@
     },
     "glances": {
         "cpu": "Процессор",
-        "mem": "Память",
         "wait": "Пожалуйста, подождите",
         "temp": "Температура",
         "uptime": "Работает",
         "days": "д",
-        "hours": "ч"
+        "hours": "ч",
+        "load": "Load",
+        "warn": "Warn",
+        "total": "Total",
+        "free": "Free",
+        "used": "Used"
     },
     "changedetectionio": {
         "totalObserved": "Всего наблюдаемых",
@@ -604,7 +608,9 @@
         "cpuUsage": "CPU Usage",
         "memUsage": "MEM Usage",
         "systemTempC": "System Temp",
-        "poolUsage": "Pool Usage"
+        "poolUsage": "Pool Usage",
+        "volumeUsage": "Volume Usage",
+        "invalid": "Invalid"
     },
     "pfsense": {
         "disk": "Disk Usage",
@@ -628,5 +634,11 @@
         "grid_power": "Grid",
         "charge_power": "Charger",
         "watt_hour": "Wh"
+    },
+    "pialert": {
+        "total": "Total",
+        "connected": "Connected",
+        "new_devices": "New Devices",
+        "down_alerts": "Down Alerts"
     }
 }

@@ -234,12 +234,16 @@
     },
     "glances": {
         "cpu": "Prozessor",
-        "mem": "RAM",
         "wait": "Bitte warten",
         "temp": "TEMP",
         "uptime": "UP",
         "days": "T",
-        "hours": "S"
+        "hours": "S",
+        "load": "Auslastung",
+        "warn": "Warnung",
+        "total": "Gesamt",
+        "free": "Frei",
+        "used": "Verwendet"
     },
     "changedetectionio": {
         "totalObserved": "Gesamt beobachtet",
@@ -604,7 +608,9 @@
         "cpuUsage": "CPU Nutzung",
         "memUsage": "MEM Nutzung",
         "systemTempC": "System Temp",
-        "poolUsage": "Pool Nutzung"
+        "poolUsage": "Pool Nutzung",
+        "volumeUsage": "Volume Usage",
+        "invalid": "Ungültig"
     },
     "pfsense": {
         "load": "Durchschnittliche Last",
@@ -623,10 +629,16 @@
     },
     "evcc": {
         "watt_hour": "Wh",
-        "pv_power": "Production",
-        "battery_soc": "Battery",
+        "pv_power": "Produktion",
+        "battery_soc": "Batterie",
         "grid_power": "Grid",
-        "home_power": "Consumption",
-        "charge_power": "Charger"
+        "home_power": "Verbrauch",
+        "charge_power": "Ladegerät"
+    },
+    "pialert": {
+        "total": "Gesamt",
+        "connected": "Verbunden",
+        "new_devices": "Neue Geräte",
+        "down_alerts": "Down Alarme"
     }
 }

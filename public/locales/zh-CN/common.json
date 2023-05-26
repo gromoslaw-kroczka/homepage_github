@@ -234,12 +234,16 @@
     },
     "glances": {
         "cpu": "处理器",
-        "mem": "内存",
         "wait": "请稍等",
         "temp": "温度",
         "uptime": "运行时间",
         "days": "天",
-        "hours": "时"
+        "hours": "时",
+        "load": "Load",
+        "warn": "Warn",
+        "total": "Total",
+        "free": "Free",
+        "used": "Used"
     },
     "changedetectionio": {
         "totalObserved": "观察到的总数",
@@ -550,7 +554,7 @@
         "targets_total": "总目标"
     },
     "minecraft": {
-        "players": "播放中",
+        "players": "玩家",
         "version": "版本",
         "status": "状态",
         "up": "在线的",
@@ -604,7 +608,9 @@
         "cpuUsage": "处理器",
         "memUsage": "内存",
         "systemTempC": "系统温度",
-        "poolUsage": "存储池"
+        "poolUsage": "存储池",
+        "volumeUsage": "Volume Usage",
+        "invalid": "Invalid"
     },
     "pfsense": {
         "load": "平均负载",
@@ -628,5 +634,11 @@
         "home_power": "Consumption",
         "charge_power": "Charger",
         "watt_hour": "Wh"
+    },
+    "pialert": {
+        "total": "Total",
+        "connected": "Connected",
+        "new_devices": "New Devices",
+        "down_alerts": "Down Alerts"
     }
 }

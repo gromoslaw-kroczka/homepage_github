@@ -350,12 +350,16 @@
     },
     "glances": {
         "cpu": "CPU",
-        "mem": "MEM",
         "wait": "Prosim počakajte",
         "temp": "TEMP",
         "uptime": "UP",
         "days": "d",
-        "hours": "u"
+        "hours": "u",
+        "free": "Free",
+        "load": "Load",
+        "warn": "Warn",
+        "total": "Total",
+        "used": "Used"
     },
     "authentik": {
         "users": "Uporabniki",
@@ -604,7 +608,9 @@
         "cpuUsage": "CPU",
         "memUsage": "MEM",
         "systemTempC": "Temperatura",
-        "poolUsage": "Prostor"
+        "poolUsage": "Prostor",
+        "volumeUsage": "Volume Usage",
+        "invalid": "Invalid"
     },
     "pfsense": {
         "load": "Povp. obremenitev",
@@ -628,5 +634,11 @@
         "home_power": "Poraba",
         "charge_power": "Polnilec",
         "watt_hour": "Wh"
+    },
+    "pialert": {
+        "total": "Total",
+        "connected": "Connected",
+        "new_devices": "New Devices",
+        "down_alerts": "Down Alerts"
     }
 }

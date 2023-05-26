@@ -355,12 +355,16 @@
     },
     "glances": {
         "cpu": "CPU",
-        "mem": "MEM",
         "wait": "Please wait",
         "temp": "TEMP",
         "uptime": "UP",
         "days": "d",
-        "hours": "h"
+        "hours": "h",
+        "warn": "Warn",
+        "total": "Total",
+        "free": "Free",
+        "used": "Used",
+        "load": "Load"
     },
     "quicklaunch": {
         "bookmark": "Bookmark",
@@ -604,7 +608,9 @@
         "cpuUsage": "Χρήση επεξεργαστή",
         "memUsage": "Χρήση μνήμης",
         "systemTempC": "Θερμοκρασία συστήματος",
-        "poolUsage": "Χρήση πισίνας"
+        "poolUsage": "Χρήση πισίνας",
+        "volumeUsage": "Volume Usage",
+        "invalid": "Invalid"
     },
     "pfsense": {
         "load": "Load Avg",
@@ -628,5 +634,11 @@
         "grid_power": "Πλέγμα",
         "home_power": "Κατανάλωση",
         "charge_power": "Φορτιστής"
+    },
+    "pialert": {
+        "total": "Total",
+        "connected": "Connected",
+        "new_devices": "New Devices",
+        "down_alerts": "Down Alerts"
     }
 }

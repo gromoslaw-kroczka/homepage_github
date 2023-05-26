@@ -308,12 +308,16 @@
     },
     "glances": {
         "cpu": "CPU",
-        "mem": "RAM",
         "wait": "Prosím počkejte",
         "temp": "TEPLOTA",
         "uptime": "BĚŽÍ",
         "days": "d",
-        "hours": "h"
+        "hours": "h",
+        "total": "Total",
+        "free": "Free",
+        "used": "Used",
+        "load": "Load",
+        "warn": "Warn"
     },
     "quicklaunch": {
         "bookmark": "Záložka",
@@ -325,7 +329,7 @@
     },
     "homebridge": {
         "update_available": "Dostupná",
-        "up_to_date": "Všechno aktuální",
+        "up_to_date": "Žádné",
         "available_update": "Systém",
         "updates": "Aktualizace",
         "child_bridges": "Podřízené můstky",
@@ -604,7 +608,9 @@
         "memUsage": "Využití paměti",
         "systemTempC": "Teplota systému",
         "poolUsage": "Využití fondu",
-        "cpuUsage": "Využití procesoru"
+        "cpuUsage": "Využití procesoru",
+        "volumeUsage": "Volume Usage",
+        "invalid": "Invalid"
     },
     "pfsense": {
         "load": "Prům. zatížení",
@@ -628,5 +634,11 @@
         "grid_power": "Grid",
         "home_power": "Consumption",
         "charge_power": "Charger"
+    },
+    "pialert": {
+        "total": "Total",
+        "connected": "Connected",
+        "new_devices": "New Devices",
+        "down_alerts": "Down Alerts"
     }
 }
